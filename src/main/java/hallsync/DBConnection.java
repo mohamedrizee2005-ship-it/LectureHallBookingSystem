@@ -8,7 +8,7 @@ public class DBConnection {
     // Database connection parameters for LectureHallBookingDB
     private static final String URL = "jdbc:mysql://localhost:3306/LectureHallBookingDB?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC";
     private static final String USER = "root";
-    private static final String PASSWORD = "Rizee81115002#"; // <-- Replace with your MySQL root password
+    private static final String PASSWORD = "YOUR_MYSQL_PASSWORD"; // <-- Replace with your MySQL root password
 
     public static Connection getConnection() throws SQLException {
         try {
